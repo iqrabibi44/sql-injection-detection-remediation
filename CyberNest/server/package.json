@@ -1,0 +1,17 @@
+{
+  "name": "sqlshield-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development tsx index-dev.ts",
+    "start": "cross-env NODE_ENV=production node ../dist/index.js"
+  },
+  "devDependencies": {
+    "@types/pdfkit": "^0.17.6",
+    "cross-env": "^7.0.3",
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "pdfkit": "^0.18.0"
+  }
+}
